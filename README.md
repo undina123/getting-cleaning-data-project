@@ -1,10 +1,13 @@
 #Getting and Cleaning Data Course Project
 
+
 ##What you find in this repository
 
-    - **CodeBook.md:** information about raw and tidy data set, made transformations and tidy data set variables 
-    - **TREADME.md:** this file
-    - **Trun_analysis.R:** R script to transform raw data set in a tidy one
+ 
+1. **CodeBook.md:** information about raw and tidy data set, made transformations and tidy data set variables 
+2.  **README.md:** this file
+3. **run_analysis.R:** R script to transform raw data set in a tidy one
+
 
 ##Describing R script
 
@@ -20,5 +23,3 @@ plus  subject nr and labels using grep
 9. **Step 5:** From the data set in step 4, we creates a second, independent tidy data set with the average of each variable for each activity and each subject. For that we use teh function aggregate
 10. Group names are changed to "activityname","subject"
 11. 3 last columns excluded since contain "activityname","subject" in beginning and  "activitylabel" which is not needed
-
-
